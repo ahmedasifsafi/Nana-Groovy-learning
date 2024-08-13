@@ -20,8 +20,8 @@ pipeline{
 		script {
 			gv.buildApp()
             }
-	     }
-        }
+	  }
+	}
         stage ("test"){
 	when {
 	        expression {
